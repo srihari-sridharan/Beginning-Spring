@@ -4,7 +4,7 @@ div.ingredient-group:nth-child(odd) {
 }
 
 div.ingredient-group:nth-child(even) {
-    float: left;
+	float: left;
 	padding-right: 0;
 }
 
@@ -13,15 +13,15 @@ div.ingredient-group {
 }
 
 .grid:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 span.validationError {
